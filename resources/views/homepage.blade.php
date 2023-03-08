@@ -13,10 +13,23 @@
         <title>Laravel Primi Passi</title>
     </head>
 
-    <body>
-        <h1>Hello World</h1>
+    <body class="bg-dark">
+        <div class="container">
+            <div class="text-center text-white">
+                <h1>
+                    Hello World
+                </h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="/about">about</a></li>
+                    <li><a href="/contacts">contacts</a></li>
+                </ul>
+            </nav>
 
-
+        </div>
         <!-- Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
