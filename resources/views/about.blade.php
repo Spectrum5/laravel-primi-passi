@@ -22,13 +22,15 @@
     <div class="container vh-100 justify-content-center d-flex align-items-center">
 
         <div class="row row-cols-2 justify-content-center d-flex align-items-center">
-
+            <div class="text-center">
+                <i class="fab fa-laravel fa-8x text-danger"></i>
+            </div>
             <div class="col-12 text-center text-white mb-4 position-relative">
                 <h1 class="text-center">
                     Hello World!
                 </h1>
                 <h1 class="laravel-absolute position-absolute translate-middle start-50 text-danger">
-                    in Laravel
+                    in Laravel!
                 </h1>
             </div>
             <div class="col mb-3">
