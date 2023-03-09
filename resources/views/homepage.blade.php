@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=h1, initial-scale=1.0">
-        <!-- style css -->
-        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 
+        <!-- style css -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+        
         <title>Laravel Primi Passi</title>
     </head>
 
@@ -17,7 +18,7 @@
         <div class="container">
             <div class="text-center text-white">
                 <h1>
-                    Hello World
+                    Hello World!
                 </h1>
             </div>
             
